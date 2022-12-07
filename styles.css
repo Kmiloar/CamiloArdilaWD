@@ -99,6 +99,11 @@ hr {
 .imgCon1 {
     width: 100%;
     padding: 5% 0;
+    transition: 250ms;
+}
+
+.imgCon1:hover {
+    transform: scale(1.1);
 }
 
 /*footer*/
