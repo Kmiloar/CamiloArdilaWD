@@ -23,7 +23,7 @@
 
 .navbar-brand {
     font-family: 'EB Garamond', serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 /*Header*/
@@ -75,7 +75,7 @@ p {
 }
 
 .tecnologias {
-    padding: 1% 0 5%;
+    padding: 1% 5% 5%;
 }
 
 hr {
@@ -116,5 +116,11 @@ footer {
 
 .RS1 {
     padding: 3% 0.5%;
+}
+
+.derechos {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
