@@ -1,0 +1,97 @@
+:root {
+    --nav: #3F3B6C;
+    --primario: #4649FF;
+    --secundario: #7978FF;
+    --tercero: #C47AFF;
+    --claro: #F5EBE0;
+}
+
+/*Navbar*/
+
+.navbar {
+    background-color: var(--nav);
+    
+}
+
+.container-fluid {
+    padding: 0 10%;
+}
+
+.imgLogo {
+    width: 170px;
+}
+
+/*Header*/
+
+.imgHead {
+    width: 35%;
+    padding: 5% 0;
+}
+
+header h1 {
+    padding: 10% 0;
+    color: var(--claro);
+    font-family: 'Tiro Tamil', serif;
+    font-size: 3rem;
+}
+
+header h3 {
+    padding-bottom: 8%;
+    color: var(--claro);
+    font-family: 'EB Garamond', serif;;
+    font-size: 2.5rem;
+}
+
+header {
+    background-color: var(--nav);
+}
+
+/*Main*/
+
+p {
+    font-family: 'Merriweather', serif;
+    text-align: justify;
+    
+}
+
+.imgPerfil {
+    width:60%;
+    border-radius: 20%;
+    padding-bottom: 5%;
+}
+
+.profile {
+    padding: 3% 10% 6%;
+}
+
+.imgCon {
+    width: 30%;
+    padding-bottom: 5%;
+}
+
+.tecnologias {
+    padding: 1% 0 5%;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 10%;
+    margin: 0 auto;
+    border-color: var(--nav);
+    opacity: 90%;
+    padding: 5% 0 2%;
+}
+
+.title2 {
+    text-align: center;
+    padding: 0 0 4%;
+    font-family: 'EB Garamond', serif;;
+    font-size: 2.5rem;
+}
+
+.imgCon1 {
+    width: 100%;
+    padding: 5% 0;
+}
