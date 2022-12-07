@@ -26,6 +26,10 @@
     font-size: 1.2rem;
 }
 
+.navbar-collapse {
+    text-align: right;
+}
+
 /*Header*/
 
 .imgHead {
@@ -102,10 +106,15 @@ hr {
     transition: 250ms;
 }
 
-.imgCon1:hover {
+.imgCon1:active {
     transform: scale(1.1);
 }
 
+@media (hover:hover) {
+    .imgCon1:hover {
+        transform: scale(1.05);
+    }
+}
 /*footer*/
 
 footer {
@@ -128,4 +137,3 @@ footer {
     text-align: center;
     padding-bottom: 3%;
 }
-
